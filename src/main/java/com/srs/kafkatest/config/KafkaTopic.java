@@ -20,4 +20,11 @@ public class KafkaTopic {
         return TopicBuilder.name("srsTopicjson")
                 .build();
     }
+
+    //added as part of master1
+    @Bean
+    public NewTopic srsTopicjson2(){
+        return TopicBuilder.name("srsTopicjson2")
+                .build();
+    }
 }
