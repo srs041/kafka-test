@@ -31,7 +31,7 @@ public class KafkaTopic {
     //added as part of feature commit
     @Bean
     public NewTopic srsTopicjson1(){
-        return TopicBuilder.name("srsTopicjson1")
+        return TopicBuilder.name("srsTopicjson1feature")
                 .build();
     }
 }
